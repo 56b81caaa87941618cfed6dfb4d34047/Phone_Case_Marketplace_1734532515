@@ -67,5 +67,20 @@
         "metadata": {
             "component_id": "Hero1734532519"
         }
+    },
+    {
+        "id": "d840746e-a2ab-4bb5-8059-d14f42173fbc",
+        "timestamp": "2024-12-18T14:50:13.230066Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_tDmPubehw9R6PG8rfzYjRLip",
+            "function": {
+                "arguments": "{\"component_id\": \"Hero1734532519\"}",
+                "name": "UndoComponentChanges"
+            },
+            "type": "function"
+        }
     }
 ]
