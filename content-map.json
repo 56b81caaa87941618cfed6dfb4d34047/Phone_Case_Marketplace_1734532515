@@ -1,0 +1,23 @@
+{
+    "name": "example",
+    "prefix": "%#PLACEHOLDER",
+    "placeholderMappings": {
+        "Header": [
+            "APPLICATION_NAME"
+        ],
+        "Hero": [
+            "HERO_HEADING_TEXT",
+            "HERO_SUBHEADING_TEXT"
+        ],
+        "Footer": [
+            "APPLICATION_NAME",
+            "FOOTER_TEXT"
+        ]
+    },
+    "placeholders": {
+        "APPLICATION_NAME": "CaseCraze",
+        "HERO_HEADING_TEXT": "Protect Your Phone, Express Your Style",
+        "HERO_SUBHEADING_TEXT": "Discover thousands of unique phone cases from independent artists and top brands all in one place",
+        "FOOTER_TEXT": "CaseCraze \u00a9 2023 | Protecting phones and empowering creativity since 2023"
+    }
+}
