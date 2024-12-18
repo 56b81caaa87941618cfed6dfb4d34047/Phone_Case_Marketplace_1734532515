@@ -57,5 +57,48 @@
         "source": "base_assistant",
         "content": "The text in the hero component has been changed to Italian. What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "e49975e2-7b42-4cb0-8e18-5279dca0cc48",
+        "timestamp": "2024-12-18T14:50:10.883512Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Actually, undo that please",
+        "metadata": {
+            "component_id": "Hero1734532519"
+        }
+    },
+    {
+        "id": "d840746e-a2ab-4bb5-8059-d14f42173fbc",
+        "timestamp": "2024-12-18T14:50:13.230066Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_tDmPubehw9R6PG8rfzYjRLip",
+            "function": {
+                "arguments": "{\"component_id\": \"Hero1734532519\"}",
+                "name": "UndoComponentChanges"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "3e6ad17c-5645-41ab-8de9-d68462b09c6a",
+        "timestamp": "2024-12-18T14:50:13.376826Z",
+        "role": "tool_result",
+        "source": "UndoComponentChanges",
+        "content": "Success: Undo changes to component",
+        "metadata": {
+            "tool_call_id": "call_tDmPubehw9R6PG8rfzYjRLip"
+        }
+    },
+    {
+        "id": "ddfe56ee-4078-4c62-9162-2c9bf1918045",
+        "timestamp": "2024-12-18T14:50:14.198652Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The changes have been undone. The text in the hero component is back to its original state. What else can I assist you with?",
+        "metadata": {}
     }
 ]
