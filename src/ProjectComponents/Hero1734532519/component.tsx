@@ -6,8 +6,8 @@ const Hero: React.FC = () => {
     <div className="bg-black py-16 text-white w-full h-full">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center h-full">
         <div className="md:w-1/2 mb-8 md:mb-0">
-          <h1 className="text-4xl font-bold mb-4">Protect Your Phone, Express Your Style</h1>
-          <p className="text-xl mb-6">Discover thousands of unique phone cases from independent artists and top brands all in one place</p>
+          <h1 className="text-4xl font-bold mb-4">Proteggi il tuo telefono, esprimi il tuo stile</h1>
+          <p className="text-xl mb-6">Scopri migliaia di custodie per telefoni uniche di artisti indipendenti e marchi di punta, tutto in un unico posto</p>
         </div>
       </div>
     </div>

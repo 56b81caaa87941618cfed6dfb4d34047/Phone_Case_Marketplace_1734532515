@@ -6,5 +6,56 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
+    },
+    {
+        "id": "8cd6a352-9c8c-4698-a200-7a40ae439e0e",
+        "timestamp": "2024-12-18T14:49:49.078315Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Change the text to italian",
+        "metadata": {
+            "component_id": "Hero1734532519"
+        }
+    },
+    {
+        "id": "bee19d6d-ca34-4011-8acc-f01aeda83038",
+        "timestamp": "2024-12-18T14:49:52.325805Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_yXFV5VT3SxNy32rcMaang8FH",
+            "function": {
+                "arguments": "{\"component_id\": \"Hero1734532519\", \"change_description\": \"Change the text to Italian\", \"acknowledgement_message\": \"Okay, I'm changing the text to Italian in the hero component...\"}",
+                "name": "EditFrontendComponent"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "a8e699eb-1acc-48db-86ab-ca71fd442f1a",
+        "timestamp": "2024-12-18T14:49:52.394304Z",
+        "role": "assistant",
+        "source": "tool:EditFrontendComponent",
+        "content": "Okay, I'm changing the text to Italian in the hero component...",
+        "metadata": {}
+    },
+    {
+        "id": "0d066c5c-e7aa-4f34-be23-ccbc86db75a9",
+        "timestamp": "2024-12-18T14:49:59.812309Z",
+        "role": "tool_result",
+        "source": "EditFrontendComponent",
+        "content": "",
+        "metadata": {
+            "tool_call_id": "call_yXFV5VT3SxNy32rcMaang8FH"
+        }
+    },
+    {
+        "id": "70bdf3ad-f976-4a27-a944-46ee9748d9be",
+        "timestamp": "2024-12-18T14:50:00.895611Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The text in the hero component has been changed to Italian. What would you like to do next?",
+        "metadata": {}
     }
 ]
