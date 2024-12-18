@@ -16,5 +16,20 @@
         "metadata": {
             "component_id": "Hero1734532519"
         }
+    },
+    {
+        "id": "bee19d6d-ca34-4011-8acc-f01aeda83038",
+        "timestamp": "2024-12-18T14:49:52.325805Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_yXFV5VT3SxNy32rcMaang8FH",
+            "function": {
+                "arguments": "{\"component_id\": \"Hero1734532519\", \"change_description\": \"Change the text to Italian\", \"acknowledgement_message\": \"Okay, I'm changing the text to Italian in the hero component...\"}",
+                "name": "EditFrontendComponent"
+            },
+            "type": "function"
+        }
     }
 ]
