@@ -49,5 +49,13 @@
         "metadata": {
             "tool_call_id": "call_yXFV5VT3SxNy32rcMaang8FH"
         }
+    },
+    {
+        "id": "70bdf3ad-f976-4a27-a944-46ee9748d9be",
+        "timestamp": "2024-12-18T14:50:00.895611Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The text in the hero component has been changed to Italian. What would you like to do next?",
+        "metadata": {}
     }
 ]
